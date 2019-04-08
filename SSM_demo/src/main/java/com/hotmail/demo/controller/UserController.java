@@ -54,6 +54,7 @@ public class UserController {
         user1.setRegTime(new Date());
         user1.setPassword("110110");
         userServiceImpl.insert(user1);
+		System.out.println("你大爷威哥进来了");
     }
 
     public void hahah(){
